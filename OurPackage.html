@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link ref="stylesheet" href="/CSS/try.css">
+    <style>
+        body {
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: url('Waterfall.jpg') no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            }
+
+        .headA {
+            text-align: center;
+            height: 700px;
+            color:rgb(39, 37, 36);
+            font-size: 3.5em;
+            position: absolute;
+        }
+        
+        table, th, td {
+            border: 2px solid;
+            border-color: antiquewhite;
+            align-items: center;
+            background: transparent;
+            backdrop-filter: blur(20px); 
+            position: relative;  
+        }
+
+        th, td {
+            padding: 20px;
+            padding-left: 90px;
+             padding-right: 90px;
+             text-align: center;
+             color: rgb(21, 20, 19);
+             font-size: 1.1em;
+        }
+
+        .closing-argument {
+            text-align: center;
+            color: rgb(17, 17, 16);
+            padding: 20px;
+            border-radius: 30px;
+            top: 700px;
+            position: absolute;
+            background: transparent;
+            backdrop-filter: blur(20px);
+        }
+        
+        .closing-para {
+            text-align: center;
+            font-size: 1.1em;
+            color: rgb(17, 17, 16);
+            padding: 20px;
+            border-radius: 30px;
+            top: 800px;
+            position: absolute;
+            background: transparent;
+            backdrop-filter: blur(20px);
+        }
+
+        input {
+            text-align: center;
+            font-size: 1.1em;
+            width: 20%;
+            background-color: #000000;
+            color: antiquewhite;
+            padding: 14px 20px;
+            margin: 8px 0;
+            position: absolute;
+            top: 900px;
+            justify-content: center;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        input:hover {
+            background-color: rgb(31, 39, 39);
+        }
+
+        footer .ending {
+            text-align: center;
+            position: absolute;
+            top: 1000px;
+            padding: 14px 20px;
+            left: 700px;
+            justify-content: space-between;
+        }
+
+        .a1 {
+            position: absolute;
+            font-size: 0.8em;
+            top: 1080px;
+            left: 635px;
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 40px;
+            justify-content: space-between;
+        }
+
+        .a2  {
+            position: absolute;
+            font-size: 0.8em;
+            top: 1080px;
+            left: 730px;
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 40px;
+            justify-content: space-between;
+        }
+        
+        .icon11 {
+            position: absolute;
+            font-size: 0.8em;
+            justify-content: space-between;
+            color: rgb(0, 0, 0);
+            left: 715px;
+            top: 1098px;
+        }
+
+        .p10 {
+            position: absolute;
+            font-size: 0.8em;
+            justify-content: space-between;
+            color: rgb(0, 0, 0);
+            left: 730px;
+            top: 1085px;
+            
+        }
+
+        .p11 {
+            position: absolute;
+            font-size: 0.8em;
+            justify-content: space-between;
+            color: rgb(0, 0, 0);
+            left: 768px;
+            top: 1085px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <header class="headA"><b>Our Package</b></header>
+
+    <table>
+        <tr>
+            <th>Country</th>
+            <th>Package / week</th>
+            <th>Price / Person</th>
+        </tr>
+        <tr>
+            <td><b>Singapore</b></td>
+            <td><b>Staying at Royal Plaza [Orchard] for 4 nights and move to MBS hotel for 2 nights. Include food, transportation, and <i>Garden by the Bay entry ticket</i></b></td>
+            <td><b>$ 2,500</b></td>
+        </tr>
+        <tr>
+            <td><b>Thailand</b></td>
+            <td><b>Price inlclude food, hotel, and transportation. Include staying at <i>Phuket</i> for 2 days.</b></td>
+            <td><b>$ 2,000</b></td>
+        </tr>
+        <tr>
+            <td><b>Korea</b></td>
+            <td><b>Staying at hotel in <i>Gangnam District</i> for 4 nights. Include touring to top three Entertainment Company and a 2 night stay at <i>Jeju Island</i></b></td>
+            <td><b>$ 3,500</b></td>
+        </tr>
+        <tr>
+            <td><b>Maldives</b></td>
+            <td><b>Price include free diving and a week stay at resorts [Include foods and free diving lessons].</b></td>
+            <td><b>$ 5,000</b></td>
+        </tr>
+        <tr>
+            <td><b>Vietnam</b></td>
+            <td><b>Focusing on culinary trip around <i>Hanoi</i>.</b></td>
+            <td><b>$ 1,700</b></td>
+        </tr>
+        <tr>
+            <td><b>Japan</b></td>
+            <td><b>Price include stays in hotel and tatami. Free touring to 5 different temple around <i>Japan</i>.</b></td>
+            <td><b>$ 4,500</b></td>
+        </tr>
+    </table>
+    <hr>
+
+    <h1 class="closing-argument">
+        We Make Your Travel List Come True
+    </h1>
+    <p class="closing-para">All prices stated above <b><i>does not</i></b> include Tax. If you have any further question, please feel free to contact us by clicking the <i>Call Us</i> button below.</p>
+    <hr>
+    <input type="submit" value="Call Us">
+    <hr>
+
+    <footer>
+        <h1 class="ending">
+            <i><b>TGNT</b></i>
+        </h1>
+        <nav class="navi1">
+        <a class="a1" href="#">Terms of Service</a>
+        <a class="a2" href="#">Privacy Policy</a>
+        <span class="icon11"><i class="fa-solid fa-copyright"></i></span>
+            <p class="p10">2024</p>   
+            <p class="p11">Moqups</p>
+        </nav>
+        
+    </footer>
+    
+</body>
+
+<script src="https://kit.fontawesome.com/797e3e96e9.js" crossorigin="anonymous"></script>
+
+</html>
